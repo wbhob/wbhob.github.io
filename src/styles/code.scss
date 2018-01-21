@@ -1,0 +1,41 @@
+.header-code {
+    background-image: url('../../static/img/code.jpg');
+    background-size: 100%;
+    background-position: center;
+    .cover-heading {
+        color: white;
+    }
+}
+
+h3:not(.masthead-brand) {
+    font-family: $font-family-sans-serif;
+}
+
+.minh-75 {
+    min-height: 75vh;
+}
+
+.minh-25 {
+    min-height: 25vh;
+}
+
+.district {
+    a {
+        color: #ff0066;
+    }
+}
+
+.orbital {
+    a {
+        color: #009cff;
+    }
+}
+
+.bg-grey {
+    background: #eee;
+}
+
+.bg-dark {
+    background: #333;
+    color: white;
+}
