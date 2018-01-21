@@ -46,8 +46,8 @@ module.exports = {
         include: [resolve('src'), resolve('test')]
       },
       {
-        test: /\.pug$/,
-        loader: 'pug-loader',
+        test: /\.html$/,
+        loader: 'html-loader',
         options: {
           root: resolve('src/views'),
           pretty: true
