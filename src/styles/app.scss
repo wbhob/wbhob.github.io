@@ -1,11 +1,10 @@
-@import "~bootstrap/scss/functions";
 // @import "config/variables";
 $headings-font-family:"Playfair Display",
 Georgia,
 "Times New Roman",
 serif;
 $primary: #0099ff !default;
-@import "~bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 // @import "config/mixins";
 // @import "helper/fonts";
 // @import "helper/form";

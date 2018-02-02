@@ -1,6 +1,9 @@
-// Load app style
-import '@/styles/app.scss'
 import 'bootstrap'
 
+import './pages/main'
+import './styles/app.scss'
 // Scripts
-import './scripts'
+import './scripts/index.js'
+
+// Load app style
+
