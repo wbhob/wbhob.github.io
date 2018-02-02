@@ -4,7 +4,7 @@
   "description": "A simple webpack starter without framework (Like Vue, React, Angular, etc.)",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-minify --public-url ./",
+    "build": "parcel build index.html --public-url ./",
     "pub": "git subtree push origin master --prefix dist"
   },
   "author": "Sinan Mutlu <sinanm17@gmail.com>",
