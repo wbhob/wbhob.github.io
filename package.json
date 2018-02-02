@@ -4,7 +4,8 @@
   "description": "A simple webpack starter without framework (Like Vue, React, Angular, etc.)",
   "scripts": {
     "start": "parcel index.html",
-    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify"
+    "build": "parcel build index.html --no-minify --public-url ./",
+    "pub": "git subtree push origin master --prefix dist"
   },
   "author": "Sinan Mutlu <sinanm17@gmail.com>",
   "license": "MIT",

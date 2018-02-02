@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"bootstrap"},{"name":"./pages/main"},{"name":"./styles/app.scss"},{"name":"./scripts/index.js"}],"generated":{"js":"\"use strict\";\n\nrequire(\"bootstrap\");\n\nrequire(\"./pages/main\");\n\nrequire(\"./styles/app.scss\");\n\nrequire(\"./scripts/index.js\");"},"hash":"c88e5c1397749bae567b2f4df23dbaa9"}
