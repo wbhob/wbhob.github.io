@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"'use strict';\nmodule.exports = function (str) {\n\treturn encodeURIComponent(str).replace(/[!'()*]/g, function (c) {\n\t\treturn '%' + c.charCodeAt(0).toString(16).toUpperCase();\n\t});\n};\n"},"hash":"b8555df1f178070ac9685fcc8d0f66c0"}
