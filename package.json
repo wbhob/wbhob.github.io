@@ -4,7 +4,7 @@
   "description": "A simple webpack starter without framework (Like Vue, React, Angular, etc.)",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./; cp -r static dist/static",
+    "build": "parcel build index.html --public-url ./; cp -r static dist",
     "pub": "gh-pages -d dist -b master"
   },
   "author": "Sinan Mutlu <sinanm17@gmail.com>",
